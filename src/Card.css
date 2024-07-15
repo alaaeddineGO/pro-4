@@ -1,0 +1,142 @@
+.card{  
+    width: 450px;
+    height: 1500px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 10px 12px rgb(14, 12, 12);
+
+}
+.image{
+    width: 409px;
+    height: 300px;
+    background-image: url(./images/téléchargement.jfif);
+    background-position: center;
+    background-size: cover;
+    margin: 29px auto;
+    transform: translateY(-28px);
+    border-radius: 15px;
+}
+.title{
+    color: rgb(0, 0, 0);
+    transform: translateY(-42px);
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.Card > p{
+    margin-top: 88px;
+    color: #898d7d;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.PreparationTime{
+    background-color: #fff7fc;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+.PreparationTime h4{
+    color: #965b75;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.PreparationTime ul{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 15px;
+}
+.PreparationTime ul li::marker{
+    color: #965b75;
+}
+.Ingredients h4{
+    color: #834731;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.Ingredients ul{
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 15px;
+    line-height: 1.2rem;
+}
+.Ingredients ul li::marker{
+    color: #834731;
+}
+.Instructions h4{
+    color: #834731;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.Instructions ul{
+    list-style-type: decima;
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 15px;
+}
+.Instructions ul li::marker{  
+    color: #834731;  
+}
+.Instructions ul span{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5rem;
+}
+
+.Nutrition h4{
+    color: #965b75;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.Nutrition p{
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.Nutrition table {
+    margin: 20px 0px;
+    width: 100%;
+}
+.Nutrition tr td:nth-child(1) {
+    margin-left: 10px;
+    padding-left: 19px;
+    line-height: 1.7rem;
+     
+}
+.Nutrition tr td:nth-child(2) {
+    font-weight: 600;
+    color: #834731;
+     
+}
+.Nutrition td {
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
